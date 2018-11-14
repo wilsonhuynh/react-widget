@@ -8,4 +8,21 @@ A standalone JavaScript widget that can be embeded to any website using ReactJs 
 - Widget can be added to the host page on pageload or at runtime
 - Continuous Integration ready
 
+## Getting started
+### Requirement
+- Visual Studio Code
+- NodeJs
+
+### Development
+Install npm packages:
+>`> npm install`
+
+Start the web server:
+>`> npm start`
+
+### Build
+>`> npm build`
+
+### Deployment
+Use [netlify](https://www.netlify.com/) to deploy the site
 
