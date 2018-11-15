@@ -1,0 +1,36 @@
+.day {
+    box-sizing: border-box;
+    background: #29638b;
+    width: 14.2857%;
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.day.alt {
+    background: #23597F;
+}
+
+.dayName {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.min {
+    color: #8AB7F4;
+    padding: 3px;
+}
+
+.max {
+    color: #FF5E6B;
+    padding: 9px 3px 3px;
+}
+
+.cloud {
+    fill: #dfdede;
+}
+
+.sun {
+    fill: #febc2f;
+}

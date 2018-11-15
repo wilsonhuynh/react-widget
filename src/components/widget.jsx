@@ -1,11 +1,15 @@
 import React from 'react';
-import Content from 'components/content';
+import Day from 'components/day';
+import style from 'styles/widget.css';
 
 const Widget = () => {
+    const numberOfDays = [...Array(7)];
+
     return (
-        <div>
-            <h1>JavaScript Widget</h1>
-            <Content />
+        <div className={style.content}>
+            {
+                numberOfDays.map((i, index) => <Day key={index} index={index} />)
+            }        
         </div>
     );
 };
